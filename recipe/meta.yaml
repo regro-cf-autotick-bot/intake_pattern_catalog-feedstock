@@ -1,16 +1,16 @@
-{% set version = "2021.8.2" %}
+{% set version = "2021.9.0" %}
 package:
   name: intake_pattern_catalog
   version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/i/intake-pattern-catalog/intake-pattern-catalog-{{ version }}.tar.gz
-  sha256: 642d1d7e46ba5fee7ca3a1435efd41066ae0a93f3388e503bc08b3ed142dabfa
+  sha256: 5f7d72619c1041ffcecbc713aa6abac3e591239625d37f59404faaa4cdacdc18
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vvv"
+  script: {{ PYTHON }} -m pip install . -vvv
 
 requirements:
   host:
