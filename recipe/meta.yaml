@@ -1,11 +1,11 @@
-{% set version = "2021.10.0" %}
+{% set version = "2021.10.1" %}
 package:
   name: intake-pattern-catalog
   version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/i/intake-pattern-catalog/intake-pattern-catalog-{{ version }}.tar.gz
-  sha256: 004f44a345c4a49faa1c6a4ca1c067074457c082858482c0af79a413de2d2a00
+  sha256: 72723b7439b0d86eea8ee302ca64975ed7bea8dc2c81ea865d267a35d17f4787
 
 build:
   noarch: python
