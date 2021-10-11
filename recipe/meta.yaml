@@ -1,6 +1,6 @@
 {% set version = "2021.10.0" %}
 package:
-  name: intake_pattern_catalog
+  name: intake-pattern-catalog
   version: {{ version }}
 
 source:
