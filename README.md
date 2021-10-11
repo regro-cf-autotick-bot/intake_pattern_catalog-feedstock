@@ -1,4 +1,4 @@
-About intake_pattern_catalog
+About intake-pattern-catalog
 ============================
 
 Home: https://bitbucket.org/dtnse/intake_pattern_catalog
@@ -27,28 +27,28 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-intake_pattern_catalog-green.svg)](https://anaconda.org/conda-forge/intake_pattern_catalog) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/intake_pattern_catalog.svg)](https://anaconda.org/conda-forge/intake_pattern_catalog) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/intake_pattern_catalog.svg)](https://anaconda.org/conda-forge/intake_pattern_catalog) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/intake_pattern_catalog.svg)](https://anaconda.org/conda-forge/intake_pattern_catalog) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-intake--pattern--catalog-green.svg)](https://anaconda.org/conda-forge/intake-pattern-catalog) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/intake-pattern-catalog.svg)](https://anaconda.org/conda-forge/intake-pattern-catalog) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/intake-pattern-catalog.svg)](https://anaconda.org/conda-forge/intake-pattern-catalog) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/intake-pattern-catalog.svg)](https://anaconda.org/conda-forge/intake-pattern-catalog) |
 
-Installing intake_pattern_catalog
+Installing intake-pattern-catalog
 =================================
 
-Installing `intake_pattern_catalog` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `intake-pattern-catalog` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `intake_pattern_catalog` can be installed with:
+Once the `conda-forge` channel has been enabled, `intake-pattern-catalog` can be installed with:
 
 ```
-conda install intake_pattern_catalog
+conda install intake-pattern-catalog
 ```
 
-It is possible to list all of the versions of `intake_pattern_catalog` available on your platform with:
+It is possible to list all of the versions of `intake-pattern-catalog` available on your platform with:
 
 ```
-conda search intake_pattern_catalog --channel conda-forge
+conda search intake-pattern-catalog --channel conda-forge
 ```
 
 
@@ -90,17 +90,17 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating intake_pattern_catalog-feedstock
+Updating intake-pattern-catalog-feedstock
 =========================================
 
-If you would like to improve the intake_pattern_catalog recipe or build a new
+If you would like to improve the intake-pattern-catalog recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/intake_pattern_catalog-feedstock are
+Note that all branches in the conda-forge/intake-pattern-catalog-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
