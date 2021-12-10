@@ -1,11 +1,11 @@
-{% set version = "2021.12.0" %}
+{% set version = "2021.12.1" %}
 package:
   name: intake-pattern-catalog
   version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/i/intake-pattern-catalog/intake-pattern-catalog-{{ version }}.tar.gz
-  sha256: 0a77099b1ffdd9451d626a350016dc7effa240ccca91b4ba021ac303ded19a63
+  sha256: 2f342c2d1dac6ae2c0c1161647f8e9aff44622cb4e568dc0d668089d04abe529
 
 build:
   noarch: python
@@ -21,7 +21,6 @@ requirements:
     - fsspec >=2021.4.0
     - intake
     - s3fs
-    - boto3 ==1.17.49
     - msgpack-python
 
 test:
