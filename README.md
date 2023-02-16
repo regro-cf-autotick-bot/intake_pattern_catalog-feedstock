@@ -1,7 +1,7 @@
 About intake-pattern-catalog
 ============================
 
-Home: https://bitbucket.org/dtnse/intake_pattern_catalog
+Home: https://github.com/DTN-Public/intake-pattern-catalog
 
 Package license: BSD-3-Clause
 
