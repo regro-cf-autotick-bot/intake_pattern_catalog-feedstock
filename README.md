@@ -1,11 +1,11 @@
-About intake-pattern-catalog
-============================
+About intake-pattern-catalog-feedstock
+======================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/intake_pattern_catalog-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/DTN-Public/intake-pattern-catalog
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/intake_pattern_catalog-feedstock/blob/main/LICENSE.txt)
 
 Summary: Intake plugin for specifying a file-path pattern which can represent a number of different entries
 
