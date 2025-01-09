@@ -4,20 +4,20 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/i/intake-pattern-catalog/intake-pattern-catalog-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/i/intake-pattern-catalog/intake-pattern-catalog-{{ version }}.tar.gz
   sha256: f237dc3005502b9d1b80b54585ae2fe8a2e93e454646df198d7100a0b76c1be7
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vvv
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - intake
 
 test:
@@ -27,6 +27,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/DTN-Public/intake-pattern-catalog
